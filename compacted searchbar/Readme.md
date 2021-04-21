@@ -1,1 +1,0 @@
-### Owner: [Doggybootsy](https://github.com/doggybootsy)

@@ -19,4 +19,3 @@ To make the all the other ones ones left
   flex-direction: row-reverse;
 }
 ```
-### Owner: [Doggybootsy](https://github.com/doggybootsy)
