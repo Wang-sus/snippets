@@ -10,3 +10,6 @@
 [mask^="url(#svg-mask-status-streaming"] {
   fill: #593695;
 }
+[mask^="url(#svg-mask-status-offline"] {
+  fill: rgb(116, 127, 141);
+}
