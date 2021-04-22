@@ -1,0 +1,11 @@
+$profilestatuss:(
+    online:#43b581,
+    idle:#faa61a,
+    dnd:#f04747,
+    streaming:rgb(89, 54, 149),
+);
+@each $name, $profilestatus in $profilestatuss{
+    [mask^="url(#svg-mask-status-#{$name}"]{
+        fill:$profilestatus;
+    }
+}
