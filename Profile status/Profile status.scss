@@ -3,6 +3,7 @@ $profilestatuss:(
     idle:#faa61a,
     dnd:#f04747,
     streaming:rgb(89, 54, 149),
+    offline:rgb(116, 127, 141),
 );
 @each $name, $profilestatus in $profilestatuss{
     [mask^="url(#svg-mask-status-#{$name}"]{
