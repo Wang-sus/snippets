@@ -1,0 +1,36 @@
+
+#floating-editor-window{
+    border-radius: 6px;
+    background-color: #1e1e1e;
+}
+.floating-window-titlebar>.title{
+    text-align: right;
+    order: 1;
+}
+.floating-window-buttons .maximize-button{
+    order: 1;
+    background: #34c749;
+}
+.floating-window-buttons .button svg{
+    display: none;
+    color: #006500;
+}
+.floating-window-buttons .button:nth-child(2) svg{
+    display: none;
+    color: rgb(76, 0, 0);
+}
+.floating-window-buttons:hover .button svg{
+    display: flex;
+}
+.floating-window-buttons:hover .maximize-button{
+    background: #34c749;
+}
+.floating-window-buttons .button:nth-child(2){
+    background: #fc615d !important;
+}
+.floating-window-buttons .button{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
