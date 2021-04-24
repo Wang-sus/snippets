@@ -1,0 +1,11 @@
+.layers-3iHuyZ>.layer-3QrUeG:first-child{
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+.layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.perksModal-fSYqOq{
+        background-color: rgba(0, 0, 0, 0.85)!important;
+}
+.contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
+.sidebarRegionScroller-3MXcoP{
+    background: transparent;
+}
