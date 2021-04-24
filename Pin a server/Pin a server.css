@@ -1,0 +1,14 @@
+.guilds-1SWlCJ .scroller-1Bvpku {
+  margin-top: 65px !important;
+}.unreadMentionsIndicatorTop-gA6RCh {
+  top: 60px;
+}
+.listItem-GuPuDH[data-guild-id="id"] {
+    position: fixed;
+    top: 30px;
+    left: 10px;
+  z-index: 100;
+}
+.listItem-GuPuDH[data-guild-id="Id"]>div>.blobContainer-pmnxKB{
+    -webkit-user-drag: none;
+}
