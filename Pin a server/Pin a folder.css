@@ -1,0 +1,15 @@
+.guilds-1SWlCJ ..guilds-1SWlCJ .scroller-1Bvpku {
+  margin-top: 65px !important;
+}
+.unreadMentionsIndicatorTop-2-tcdU {
+  top: 60px;
+}
+.wrapper-3NnKdC[data-folder-name="name"] {
+    position: fixed;
+    top: 30px;
+    left: 10px;
+  z-index: 100;
+}
+.wrapper-3NnKdC[data-folder-name="name"] >div>div{
+    -webkit-user-drag: none;
+}
