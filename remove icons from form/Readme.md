@@ -1,6 +1,6 @@
 file
 ```css
-attachWrapper-2TRKBi{
+.attachWrapper-2TRKBi{
   display:none;
 }
 ```
