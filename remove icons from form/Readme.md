@@ -1,0 +1,30 @@
+file
+```css
+attachWrapper-2TRKBi{
+  display:none;
+}
+```
+gift
+```css
+.buttons-3JBrkn>[aria-label]{
+  display:none;
+}
+```
+gif
+```css
+.buttons-3JBrkn>[aria-label]+.buttonContainer-28fw2U{
+  display:none;
+}
+```
+stickers
+```css
+.stickerButton-3OEgwj{
+  display:none;
+}
+```
+emoji
+```css
+.emojiButton-pET4wH{
+  display:none;
+}
+```
