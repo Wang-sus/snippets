@@ -1,4 +1,19 @@
-
+.floating-window-titlebar{
+    height: 36px !important;
+}
+#bd-editor-controls{
+    padding:0;
+}
+#bd-editor-controls .controls-left{
+    position: absolute;
+    top:6px;
+    left:45px;
+}
+#bd-editor-controls .controls-right{
+    position: absolute;
+    top:12px;
+    right:0;
+}
 #floating-editor-window{
     border-radius: 6px;
     background-color: #1e1e1e;
@@ -6,6 +21,7 @@
 .floating-window-titlebar>.title{
     text-align: right;
     order: 1;
+    display: none;
 }
 .floating-window-buttons .maximize-button{
     order: 1;
