@@ -1,0 +1,81 @@
+
+#status-picker{
+    position: absolute;
+    bottom:-56px;
+    width: 240px;
+    left:-8px;
+    background-color: var(--background-secondary-alt);
+    height: 52px;
+    border-radius: 0;
+    .scroller-3BxosC{
+        display: flex;
+        justify-content: center;
+    }
+    .separator-2I32lJ{
+        display: none;
+    }
+    .item-1tOPte{
+        width: calc(100% / 4);
+        border-radius: 0;
+        transition: filter 250ms linear;
+        .status-1fhblQ,.description-2L932D,.status-1fhblQ+*,.customText-tY5LJn{
+            display: none;
+        }
+        .icon-1IxfJ2{
+            transform: translate(95%,25%);
+        }
+        .clearStatusIcon-3-MDNF{
+            margin: 0;
+            transform: translate(-18%,18%);
+            color: white !important;
+        }
+        .icon-1IxfJ2 .status-1AY8sU{
+            background: white !important;
+        }
+        &:hover{
+            background: white !important;
+        }
+        &#status-picker-online{
+            background: #43b581;
+            border-radius:0 ;
+            &:hover{
+                .icon-1IxfJ2 .status-1AY8sU{
+                    background: #43b581 !important;
+                }
+            }
+        }
+        &#status-picker-idle{
+            background: #faa61a;
+            &:hover{
+                .icon-1IxfJ2 .status-1AY8sU{
+                    background: #faa61a !important;
+                }
+            }
+        }
+        &#status-picker-dnd{
+            background: #f04747;
+            &:hover{
+                .icon-1IxfJ2 .status-1AY8sU{
+                    background: #f04747 !important;
+                }
+            }
+        }
+        &#status-picker-invisible{
+            background: rgb(116, 127, 141);
+            &:hover{
+                .icon-1IxfJ2 .status-1AY8sU{
+                    background: rgb(116, 127, 141) !important;
+                }
+            }
+        }
+        &#status-picker-custom-status{
+            background-color: #5c6fb1;
+            border-radius:0;
+            &:hover{
+                .clearStatusIcon-3-MDNF{
+                    color: #5c6fb1 !important;
+                }
+            }
+        }
+    }
+}
