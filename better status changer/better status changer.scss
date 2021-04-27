@@ -1,11 +1,12 @@
 
 #status-picker{
     position: absolute;
-    bottom:-75px;
-    width: 217px;
-    left:84px;
-    background-color: var(--background-secondary);
-    height: 50px;
+    bottom:-56px;
+    width: 240px;
+    left:-8px;
+    background-color: var(--background-secondary-alt);
+    height: 52px;
+    border-radius: 0;
     .scroller-3BxosC{
         display: flex;
         justify-content: center;
@@ -16,61 +17,62 @@
     .item-1tOPte{
         width: calc(100% / 4);
         border-radius: 0;
-        transition: all 250ms linear;
+        transition: 250ms linear;
         .status-1fhblQ,.description-2L932D,.status-1fhblQ+*,.customText-tY5LJn{
             display: none;
         }
         .icon-1IxfJ2{
-            transform: translate(75%,25%);
+            transform: translate(95%,25%);
         }
         .clearStatusIcon-3-MDNF{
             margin: 0;
-            transform: translate(-10%,10%);
+            transform: translate(-18%,18%);
             color: white !important;
+            transition: 250ms linear;
         }
         .icon-1IxfJ2 .status-1AY8sU{
             background: white !important;
-            transition: all 250ms linear;
         }
         &:hover{
             background: white !important;
         }
         &#status-picker-online{
-            background: var(--online);
-            border-radius: var(--border-radius) 0 0 var(--border-radius);
+            background: #43b581;
+            border-radius:0 ;
+            border-radius: 6px 0 0 6px;
             &:hover{
                 .icon-1IxfJ2 .status-1AY8sU{
-                    background: var(--online) !important;
+                    background: #43b581 !important;
                 }
             }
         }
         &#status-picker-idle{
-            background: var(--idle);
+            background: #faa61a;
             &:hover{
                 .icon-1IxfJ2 .status-1AY8sU{
-                    background: var(--idle) !important;
+                    background: #faa61a !important;
                 }
             }
         }
         &#status-picker-dnd{
-            background: var(--dnd);
+            background: #f04747;
             &:hover{
                 .icon-1IxfJ2 .status-1AY8sU{
-                    background: var(--dnd) !important;
+                    background: #f04747 !important;
                 }
             }
         }
         &#status-picker-invisible{
-            background: var(--offline);
+            background: rgb(116, 127, 141);
             &:hover{
                 .icon-1IxfJ2 .status-1AY8sU{
-                    background: var(--offline) !important;
+                    background: rgb(116, 127, 141) !important;
                 }
             }
         }
         &#status-picker-custom-status{
             background-color: #5c6fb1;
-            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            border-radius: 0 6px 6px 0;
             &:hover{
                 .clearStatusIcon-3-MDNF{
                     color: #5c6fb1 !important;
