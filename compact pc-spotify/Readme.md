@@ -1,4 +1,4 @@
 Import
 ```css
-@import url("https://discordsnippets.github.io/snippets/")
+@import url("https://discordsnippets.github.io/snippets/");
 ```
