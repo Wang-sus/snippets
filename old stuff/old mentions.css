@@ -1,0 +1,11 @@
+.wrapper-3WhCwL,.theme-dark .mentioned-xhSam7 .mention, .theme-light .mentioned-xhSam7 .mention{
+    color:#7289da !important;
+    background:rgba(114,137,218,.1) !important;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+  }
+  .wrapper-3WhCwL:hover,.theme-dark .mentioned-xhSam7 .mention:hover, .theme-light .mentioned-xhSam7 .mention:hover{
+    color:#fff !important;
+    background-color:#7289da !important;
+  }
