@@ -2,10 +2,10 @@
 @-moz-document domain("discord.com") {
     /* ==UserStyle==
     @name           Dribbblish
-    @namespace      https://github.com/doggybootsy/bubblecord
+    @namespace      https://github.com/discordsnippets/snippets/tree/main/Dribbblish
     @version        1.0.0
     @description    A discord theme based off of the Dribbblish spicetify theme
     @author         Doggybootsy#1333
     ==/UserStyle== */
-    @import url("https://doggybootsy.github.io/Dribbblish/src/all.css");
+    @import url("https://discordsnippets.github.io/snippets/Dribbblish/import.css");
 }
