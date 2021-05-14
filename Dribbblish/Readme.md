@@ -1,0 +1,1 @@
+If your gonna use in any theme/plugin/addon, give credit were credit is due
