@@ -3,12 +3,12 @@
     --Speed:6s;
 }
   
-.appMount-3lHmkl{
+.appMount-2yBXZl{
     margin:var(--Thickness);
     width:calc(100% - calc(var(--Thickness) * 2))!important;
     height:calc(100% - calc(var(--Thickness) * 2))!important;
 }
-.platform-osx .appMount-3lHmkl{
+.platform-osx .appMount-2yBXZl{
     border-radius:6px;
 }
 body{
